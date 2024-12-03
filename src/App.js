@@ -9,7 +9,7 @@ function App() {
     <Provider store={store}>
     <Router>
       <Routes>
-        <Route path='/tasks' element={<TaskDashboard />}/>
+        <Route path='/task-APP' element={<TaskDashboard />}/>
       </Routes>
     </Router>
     </Provider>
